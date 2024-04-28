@@ -1,4 +1,5 @@
 @import '@/assets/variable.css';
+@import '@/assets/ui/button.css';
 
 * {
   margin: 0;
