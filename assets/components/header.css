@@ -1,0 +1,34 @@
+@import '@/assets/variable.css';
+
+.header{
+  height: 50px;
+  width: 100%;
+  background: yellow;
+  position: sticky;
+  top: 0;
+  background-color: var(--bg);
+  color: var(--color);
+  border-bottom: 1px solid var(--color-primary);
+  display: flex;
+  align-items: center;
+}
+
+.header--color-modes{
+  display: flex;
+  gap: 10px;
+  padding: 2px 15px;
+}
+.header--color-modes li{
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.header--color-modes li svg{
+  width: 16px;
+  height: 16px;
+}
