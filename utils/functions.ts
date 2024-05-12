@@ -3,7 +3,7 @@ export const formatRatingNumber = (int: number): number => {
 }
 
 export const generateHumanLink = (name: string, id: number): string => {
-  const clearSymbol: string[] = [',', '.', '!', '-', '?']
+  const clearSymbol: string[] = [',', '.', '!', '-', '?', ':']
   const arr: string[] = [...name.split(' ').map(i => i.toLocaleLowerCase()).filter(i => !clearSymbol.includes(i)), String(id)]
   return arr.join('-')
 }

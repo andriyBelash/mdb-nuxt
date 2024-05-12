@@ -41,7 +41,7 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 36px;
 }
 
 .main-poster--content-title{
@@ -77,8 +77,5 @@
 @media (min-width: 1024px) {
   .main-poster--image {
     aspect-ratio: 25/9;
-  }
-  .main-poster--content{
-    aspect-ratio: 15/9;
   }
 }

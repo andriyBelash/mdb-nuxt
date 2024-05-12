@@ -1,8 +1,15 @@
 {
   "movies": {
-    "popular": "Popular"
+    "popular": "Popular movies"
+  },
+  "tv": {
+    "popular":"Popular TV shows"
+  },
+  "people": {
+    "popular":"Popular people"
   },
   "buttons": {
-    "review": "Review"
+    "review": "Review",
+    "show_more": "Show more"
   }
 }

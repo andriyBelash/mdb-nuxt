@@ -1,11 +1,10 @@
 <script setup lang="ts">
   import '@/assets/components/main-movie.css'
   import { ImageBaseUrl, BackdropSizes } from '~/utils/constants';  
-  import { formatRatingNumber, generateHumanLink } from '~/utils/functions'
+  import { formatRatingNumber } from '~/utils/functions'
+  import type { Poster } from '~/types/basic'
 
-  import type { TMovieResult } from '~/types/movies';
-
-  type Props = { poster: TMovieResult, showMoreButton?: boolean }
+  type Props = { poster: Poster, showMoreButton?: boolean, link?: string }
 
   const { poster, showMoreButton } = withDefaults(defineProps<Props>(), { showMoreButton: false })
 
@@ -41,7 +40,7 @@
         </li>
       </ul>
       <p class="main-poster--content-overview">{{ poster.overview }}</p>
-      <NuxtLink :to="generateHumanLink(poster.original_title, poster.id)"> 
+      <NuxtLink :to="link"> 
         <BaseButton v-if="showMoreButton">
           {{ $t('buttons.review') }}
         </BaseButton>
