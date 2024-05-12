@@ -2,7 +2,12 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  modules: ['@nuxtjs/color-mode', "@nuxtjs/i18n"],
+  modules: ['@nuxtjs/color-mode', "@nuxtjs/i18n", '@nuxt/image'],
+  runtimeConfig: {
+    public: {
+      baseURL: 'https://api.themoviedb.org/3',
+    },
+  },
   i18n: {
     detectBrowserLanguage: {
       useCookie: true,

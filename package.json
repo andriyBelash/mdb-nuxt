@@ -10,10 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/image": "^1.6.0",
     "@nuxtjs/i18n": "^8.3.1",
+    "lru-cache": "^10.2.2",
     "nuxt": "^3.11.2",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^3.4.1"

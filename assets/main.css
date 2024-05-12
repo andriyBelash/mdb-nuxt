@@ -35,5 +35,9 @@ ul {
 }
 
 .page{
-  padding: 15px;
+  height: 100%;
+}
+
+a{
+  width: max-content;
 }

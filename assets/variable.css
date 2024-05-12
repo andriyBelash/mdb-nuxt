@@ -5,6 +5,7 @@
   --bg: #f3f5f4;
   --bg-secondary: #fff;
   --border-color: #ddd;
+  --title-size:  calc(15px + 2vw);
 }
 
 .dark-mode {

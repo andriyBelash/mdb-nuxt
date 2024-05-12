@@ -2,17 +2,17 @@
   import '@/assets/components/header.css'
   const { locale, locales, setLocale } = useI18n()
   
-  const changeLocale = (locale: string) => {
-    setLocale(locale)
+  const changeLocale = async (locale: string) => {
+    await setLocale(locale)
     window.location.reload()
   }
 </script>
 
 <template>
-  <div class="header">
+  <header class="header">
     <div class="locales">
-      <span @click="() => setLocale('en')" :class="{'current-locale': locale === 'en'}">en</span>
-      <span @click="() => setLocale('uk')" :class="{'current-locale': locale === 'uk'}">укр</span>
+      <span @click="() => changeLocale('en')" :class="{'current-locale': locale === 'en'}">en</span>
+      <span @click="() => changeLocale('uk')" :class="{'current-locale': locale === 'uk'}">укр</span>
     </div>
     <ClientOnly>
       <AppHeaderColorModePicker/>
@@ -21,7 +21,7 @@
         <div class="color-preloader">...</div>
       </template>
     </ClientOnly>
-  </div>
+  </header>
 </template>
 
 <style>

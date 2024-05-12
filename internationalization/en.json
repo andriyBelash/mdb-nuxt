@@ -1,5 +1,8 @@
 {
   "movies": {
     "popular": "Popular"
+  },
+  "buttons": {
+    "review": "Review"
   }
 }
