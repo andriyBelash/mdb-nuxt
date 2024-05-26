@@ -40,3 +40,6 @@ export const StillSizes = {
   w300: 'w300',
   original: 'original'
 }
+
+export const movieTabs: string[] = ['now_playing', 'popular', 'top_rated', 'upcoming']
+export const tvTabs: string[] = ['airing_today', 'on_the_air', 'popular', 'top_rated']

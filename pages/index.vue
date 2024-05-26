@@ -56,7 +56,7 @@ useHead({ title: 'Home' })
         </template>
       </BaseSection>
 
-      <BaseSection :title="$t('tv.popular')" url="#">
+      <BaseSection :title="$t('tv.popular')" url="/tv/category/popular">
         <template v-for="item of tv?.results" :key="item.id">
           <MediaCard 
             :media="{ 

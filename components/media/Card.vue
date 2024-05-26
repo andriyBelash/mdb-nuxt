@@ -1,5 +1,4 @@
 <script setup lang="ts">
-  import type { TMovieResult } from '~/types/movies';
   import type { MediaCard } from '~/types/basic';
   import { ImageBaseUrl, PosterSizes } from '~/utils/constants';  
 

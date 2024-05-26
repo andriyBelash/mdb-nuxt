@@ -1,4 +1,7 @@
 {
+  "base": {
+    "search": "Search"
+  },
   "movies": {
     "popular": "Popular movies"
   },
@@ -11,5 +14,16 @@
   "buttons": {
     "review": "Review",
     "show_more": "Show more"
+  },
+  "tabs": {
+    "now_playing": "Now playing",
+    "popular": "Popular",
+    "top_rated": "Top rated",
+    "upcoming": "Upcoming",
+    "airing_today": "Airing today",
+    "on_the_air": "On the air"
+  },
+  "error": {
+    "page_not_found": "Page not found"
   }
 }

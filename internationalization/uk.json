@@ -1,4 +1,7 @@
 {
+  "base": {
+    "search": "Пошук"
+  },
   "movies": {
     "popular": "Популярні фільми"
   },
@@ -11,5 +14,16 @@
   "buttons": {
     "review": "Переглянути",
     "show_more": "Показати більше"
+  },
+  "tabs": {
+    "now_playing": "Зараз в прокаті",
+    "popular": "Популярні",
+    "top_rated": "Найвищий рейтинг",
+    "upcoming": "Майбутні",
+    "airing_today": "Сьогодні в ефірі",
+    "on_the_air": "В ефірі"
+  },
+  "error": {
+    "page_not_found": "Сторінка відсутня"
   }
 }

@@ -3,7 +3,8 @@ import type { TFetch } from "./basic"
 export type FetchPopularTV = TFetch<ITVResult[]>
 
 export type ITVResult = {
-  backdrop_path: string
+  adult: boolean
+  backdrop_path?: string
   genre_ids: number[]
   id: number
   origin_country: string[]

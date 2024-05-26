@@ -10,14 +10,11 @@
     <nuxt-link :to="localePath('/')">
       <IconHome></IconHome>
     </nuxt-link>
-    <nuxt-link :to="localePath('/movies')">
+    <nuxt-link :to="localePath('/movies/category/popular')">
       <IconMovie></IconMovie>
     </nuxt-link>
-    <nuxt-link :to="localePath('/tv')">
+    <nuxt-link :to="localePath('/tv/category/airing_today')">
       <IconTV></IconTV>
-    </nuxt-link>
-    <nuxt-link :to="localePath('/staff')">
-      <IconPerson></IconPerson>
     </nuxt-link>
     <nuxt-link :to="localePath('/search')">
       <IconSearch></IconSearch>
